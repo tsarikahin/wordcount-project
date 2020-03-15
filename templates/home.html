@@ -1,0 +1,17 @@
+<!-- comment part -->
+<h1> WELCOME TO MY PAGE</h1>
+<h2> written by Tarik Sahin</h2>
+<h3> please write something here!</h3>
+
+<!--{{dic}} -->
+<form action="{% url 'count' %}">
+<textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br>
+    <br>
+    <br>
+<input type="submit" value="Count!" />
+</form>
+<br>
+<h3>NOT: Count button will count the words!</h3>
+
+<a href=" {% url 'about' %} "> Click for about page </a>
